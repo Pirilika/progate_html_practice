@@ -11,3 +11,8 @@ p {
     font-size: 20px;
     font-family: "Lucida Grande";
 }
+
+img {
+    height: 50px;
+    width: 70px;
+}
