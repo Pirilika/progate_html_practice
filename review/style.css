@@ -1,3 +1,9 @@
 .css-head {
     color: red;
 }
+
+.first {
+    float: right;
+    height: 200px;
+    background-color: blue;
+}
