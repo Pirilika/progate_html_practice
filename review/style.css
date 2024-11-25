@@ -2,8 +2,29 @@
     color: red;
 }
 
-.first {
-    float: right;
-    height: 200px;
+.first p {
     background-color: blue;
+}
+
+header {
+    background-color: orange;
+}
+
+.container {
+    background-color: greenyellow;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contents {
+    background-color: skyblue;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contents-item {
+    display: inline-block;
+    text-align: center;
+    background-color: beige;
+    padding: 50px;
 }
