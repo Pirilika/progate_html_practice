@@ -20,11 +20,45 @@ a {
 
 /* top-wrapper */
 .top-wrapper {
-    background-image: url(https://prog-8.com/images/html/advanced/top.png);
-    background-size: cover;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
 }
 
 .container {
-    width: 1170px;
-    margin: 0 auto;
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+
+.container h1 {  
+  font-size: 55px;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
+
+.container p {
+  margin: 10px 0; 
+  opacity: 0.7;
+}
+
+.signin {
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 100px;
+  color: white;
+  background-color: black;
+}
+
+.btn span {
+  margin-right: 2px;
+}
+
+.new {
+  background-color: darkgreen;
 }
