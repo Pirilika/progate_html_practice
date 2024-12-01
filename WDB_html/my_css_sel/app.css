@@ -1,0 +1,18 @@
+body {
+    color: #003566;
+}
+
+button {
+    color: #ffc300;
+}
+
+#signup {
+    background-color:#ffd60a;
+}
+
+.tag {
+    color: #219ebc;
+    background-color: #cad2c5;
+    border-radius: 10px;
+}
+
