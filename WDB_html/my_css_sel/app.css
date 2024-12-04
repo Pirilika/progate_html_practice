@@ -1,5 +1,6 @@
 body {
     color: #003566;
+    background-color: skyblue;
 }
 
 button {
@@ -16,3 +17,57 @@ button {
     border-radius: 10px;
 }
 
+.post a {
+    color: orenge;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a {
+    color: red;
+}
+
+h2 + button {
+    font-size: 20px;
+} 
+
+footer > a {
+    color: #219ebc;
+}
+
+input[type="password"]::placeholder {
+    color: greenyellow;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
+
+.post button:hover {
+    background: red;
+    color: white;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: aqua;
+}
+
+.post:nth-of-type(2n+1) {
+    background-color: aquamarine;
+}
+
+h2::first-letter {
+    font-size: 80px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: red;
+}
